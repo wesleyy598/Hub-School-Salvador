@@ -1,0 +1,234 @@
+body {
+    font-family: "Arial";
+}
+
+header {
+    background-color: lightgray;
+    padding: 20px 0;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto; 
+}
+
+.logo {
+    width: 15%;
+}
+
+
+nav {
+    position: absolute;
+    top: 60px;
+    right:0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 18px;
+    font-family: 'Handlee', cursive;
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.banner {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.utensilios {
+    width: 200px;
+    float: left;
+    margin: 0 20px;
+    padding: 20px 20px 0 20px;
+}
+
+.principal {
+    width: 100%;
+    background-color: #EEE;
+    margin: 0 auto;
+}
+
+.principal p{
+    text-align: justify;
+    margin: 0 0 20px;
+    padding: 0 20px;
+}
+
+.principal h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mapa {
+    padding: 30px 0;
+    
+}
+
+.mapa h2 {
+    text-align: center;
+}
+
+.mapa h3 {
+    text-align: center;
+    font-size: 13px;
+}
+
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa-iframe {
+    width: 940px;
+    height: 300px;
+}
+
+.lista-beneficios{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imagem-beneficios {
+    width: 40%;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child{
+    font-weight: bold;
+}
+
+.beneficios h2{
+    text-align: center;
+}
+.conteudo-beneficios {
+    width: 640px;
+    margin: 25px auto;
+}
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+}
+
+.copyright {
+    color: #FFF;
+    font-size: 13px;
+    padding-bottom: 40px;
+}
+
+
+/*
+Produtos.html
+*/
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    width: 30%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    margin: 0 1.5%;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: top;
+    height: 380px;
+    transition: 1s all;
+}
+
+.produtos li:hover {
+    border-color: red;
+    height: 400px;
+    background-color: #AAA;
+}
+
+.produtos h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+.produto-descricao {
+    font-size: 17px;
+}
+
+.produto-preco {
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.produtos-img {
+    max-width: 120px;
+}
+
+/*Formulario.html*/
+
+form {
+    margin: 40px 10px;
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display:block;
+    width: 50%;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    border:none;
+    border-bottom: solid 1px #000;
+}
+
+.enviar {
+    width:40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+}
+
+.enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+    border: solid 1px #000;
+}
+
+td, th {
+    border: solid 1px #000;
+    padding: 5px;
+}
+
+input:focus:invalid {
+    border-color: red;
+}

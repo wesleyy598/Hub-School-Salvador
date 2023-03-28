@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <title>Entrar em contato com o Hub School</title>
+    <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <img src="logo.png" class="logo" alt="Logo do Hub School" />
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="produtos.html">
+                            Produtos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contato.html">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="formulario-div">
+        <form>
+            <label for="nomecompleto">
+                Nome completo:
+            </label>
+            <input type="text" id="nomecompleto" class="input-padrao" placeholder="Digite aqui seu nome" />
+        
+            <label for="email">
+                E-mail:
+            </label>
+            <input type="email" required id="email" class="input-padrao" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+
+            <label for="telefone">
+                Celular:
+            </label>
+            <input type="tel" id="telefone" class="input-padrao" />
+            
+            <label for="mensagem">
+                Mensagem:
+            </label>
+            <textarea id="mensagem" class="input-padrao"></textarea>
+            <p>Como prefere nosso contato?</p>
+            <label for="radio-email">
+                <input type="radio" name="contato" id="radio-email" />
+                E-mail
+            </label>
+            <label for="radio-tel">
+                <input type="radio" name="contato" id="radio-tel" />
+                Telefone
+            </label>
+            <label for="radio-wa">
+                <input type="radio" name="contato" id="radio-wa" />
+                Whatsapp
+            </label>
+            
+            <p>
+                Qual horário prefere ser atendido?
+            </p>
+            <select>
+                <option>Selecione uma opção</option>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+            <label>
+                <input type="checkbox" checked>
+                Gostaria de receber nossas novidades por email?
+            </label>
+            <input type="submit" value="Enviar formulário" class="enviar" />
+        </form>
+
+        <table>
+            <tr>
+                <th>Dia</th>
+                <th>Horário</th>
+            </tr>
+            <tr>
+                <td>Segunda</td>
+                <td>8:00 ~ 20:00hrs</td>
+            </tr>
+            <tr>
+                <td>Quarta</td>
+                <td>8:00 ~ 20:00hrs</td>
+            </tr>
+            <tr>
+                <td>Sexta</td>
+                <td>8:00 ~ 20:00hrs</td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <img src="logo.png" class="logo"/>
+        <p class="copyright">&copy; Copyright Cursos Hub School - 2021</p>
+    </footer>
+</body>
+</html>

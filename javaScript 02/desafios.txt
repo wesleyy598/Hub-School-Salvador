@@ -1,0 +1,5 @@
+Função em javascript que receba um numero inteiro maior que 5
+e imprima a serie fibonacci 5 vezes.
+
+uma funçaõ em javascript que recebe uma string
+e diz quantas vogais estão nele.
